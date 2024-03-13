@@ -1,3 +1,4 @@
+import app.Fruit;
 import app.Vegitable;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -14,6 +15,11 @@ public class Main {
 
         Thread vtr = new Thread(v);
         vtr.start();
+        Fruit f = new Fruit(fru);
+
+        Thread ftr = new Thread(f);
+        ftr.start();
+
 
     }
 }

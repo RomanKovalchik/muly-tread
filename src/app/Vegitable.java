@@ -15,8 +15,9 @@ public class Vegitable implements Runnable{
 
 
 
-        System.out.println("It is info from thread two");
+
         for(String i:varr){
+            System.out.println("It is info from thread two");
             System.out.println(i);
         }
 

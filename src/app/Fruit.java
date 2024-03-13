@@ -10,8 +10,9 @@ public class Fruit implements Runnable{
 
     @Override
     public void run() {
-  System.out.println("This output from thread one");
+
         for(String i:farr){
+            System.out.println("This output from thread one");
             System.out.println(i);
         }
 
